@@ -21,7 +21,7 @@ const carregarLista = (json) => {
         json.Search.forEach(element => {
             let item = document.createElement('div');
             item.classList.add('item');
-            item.innerHTML = `<h2>${element.Title}</h2><img src="${element.Poster}"/>`;
+            item.innerHTML = `<img src="${element.Poster}"/>`;
             lista.appendChild(item);
         });
 
