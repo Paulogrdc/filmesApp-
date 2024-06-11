@@ -1,48 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
+.FilmesAPP { 
+    color:#BF000C;
+    background-color: #0D0D0D; 
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 .header {
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #164773;
+    align-items: center;
     color: white;
+    background-color: #7F0008;
     padding: 15px;
-    align-items:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+
+.cabe-direita{
+    
+}
+
+.cabe-direita{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
 }
 
 .link {
     text-decoration: none;
-    color: white;
+    color: #EDEDED;
     font-size: 16px;
     font-weight: 600;
     padding: 5px
 
 }
 
-.link2 {
-    text-decoration: none;
-    color: #89D99D; 
-    font-size: 16px;
-    font-weight: 600;
-}
-
 main {
     height: 100vw;
-    background-color: #0B2B40;
+    background-color: #0D0D0D;
 }
- form {
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
- }
 
  input { 
     border-radius: 15px;
