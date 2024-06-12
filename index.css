@@ -66,6 +66,13 @@ p {
     
 
 }
+
+.series {
+    display: flex; 
+    flex-direction: row;
+} 
+
+
  input { 
     border-radius: 15px;
     height: 30px;
