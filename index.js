@@ -17,7 +17,7 @@ search.addEventListener('click', () => {
 
 
 const formPesquisa = document.querySelector('form')
-apiKey = '      '
+apiKey = '786648c2'
 
 formPesquisa.onsubmit = (ev) => {
     
@@ -27,6 +27,8 @@ formPesquisa.onsubmit = (ev) => {
     if(pesquisa ==="") {
         alert('Campo invalido!!')
     } else {
+        const main = document.getElementById('main')
+        main.style.backgroundColor = "black"
         fetch(`http://www.omdbapi.com/?apikey=${apiKey}&s=${pesquisa}`)
         .then(res => res.json())
         .then(json => carregarLista(json))
@@ -36,6 +38,7 @@ formPesquisa.onsubmit = (ev) => {
 const carregarLista = (json) => {
     const lista = document.querySelector("div.lista");
     lista.innerHTML = "";
+
     
 
         json.Search.forEach(element => {
@@ -48,4 +51,6 @@ const carregarLista = (json) => {
 
 
 };
+
+
 
