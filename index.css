@@ -66,11 +66,19 @@ p {
     
 
 }
-
-.series {
-    display: flex; 
-    flex-direction: row;
-} 
+h1 {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.opções {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
 
 
  input { 
@@ -99,6 +107,11 @@ input::placeholder {
 }
 
 img { 
-    max-width: 100%;
+    max-width:15%;
+    transition: transform 0.3s ease;
+    border-radius: 5px;
 }
 
+img:hover {
+    transform: translateY(-30px);
+}

@@ -17,7 +17,7 @@ search.addEventListener('click', () => {
 
 
 const formPesquisa = document.querySelector('form')
-apiKey = '786648c2'
+apiKey = '      '
 
 formPesquisa.onsubmit = (ev) => {
     
