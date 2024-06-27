@@ -121,3 +121,11 @@ img {
 img:hover {
     transform: translateY(-30px);
 }
+
+footer {
+    text-align: center;
+    color:white; 
+    background-color: #BF000C;
+    font-size: 15px;
+    font-weight: 200;
+}
